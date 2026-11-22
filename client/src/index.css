@@ -1,0 +1,16 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f6f8; }
+.nav { display: flex; justify-content: space-between; padding: 12px 24px; background: #1e3a8a; color: #fff; }
+.nav a { color: #fff; }
+.container { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+.card { background: #fff; padding: 20px; border-radius: 8px; max-width: 420px; margin-bottom: 24px; display: flex; flex-direction: column; gap: 10px; }
+input, select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+button { padding: 8px 12px; background: #1e3a8a; color: #fff; border: 0; border-radius: 4px; cursor: pointer; margin-right: 4px; }
+table { width: 100%; background: #fff; border-collapse: collapse; margin-top: 12px; }
+th, td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; }
+.err { color: #b91c1c; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 12px; color: #fff; background: #6b7280; }
+.badge.Pending { background: #d97706; }
+.badge.Approved { background: #2563eb; }
+.badge.Ready { background: #059669; }
+.badge.Collected { background: #4b5563; }
+.badge.Rejected { background: #dc2626; }
