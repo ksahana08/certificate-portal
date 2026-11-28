@@ -13,7 +13,7 @@ router.post('/', protect, async (req, res) => {
   }
 });
 
-// Student: see my own requests
+// Student: see my own requests (with student details for the certificate)
 router.get('/mine', protect, async (req, res) => {
   res.json(
     await Request.find({ student: req.user._id })
