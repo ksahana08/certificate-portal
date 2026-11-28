@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://certificate-portal-api.onrender.com/api/:path*" },
+    { "source": "/api/:path*", "destination": "https://certificate-portal-ti4t.onrender.com/api/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
