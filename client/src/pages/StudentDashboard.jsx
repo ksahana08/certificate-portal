@@ -105,7 +105,7 @@ export default function StudentDashboard() {
               <td>{r.remarks || '-'}</td>
               <td>{new Date(r.createdAt).toLocaleDateString()}</td>
               <td>
-                {(r.status === 'Ready' || r.status === 'Collected') && (
+                {['Approved', 'Ready', 'Collected'].includes(r.status) && (
                   <button onClick={() => printCertificate(r)}>Print</button>
                 )}
               </td>
